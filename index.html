@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Glowing Text</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+      </head>
+      <body>
+        <audio id="myAudio" loop>
+            <source src="ohah.mp3" type="audio/mpeg">
+          </audio>
+
+        <div class="background"></div>
+        <img src="twerking-icegif-7.gif" alt="Second GIF" class="overlay-gif">
+        
+        <div class="container">
+          <h1 class="glowing-text"><p>Who lives in a pineapple</p>
+          <p>Under the sea?</p>
+          <p>Absorbent and yellow</p>
+          <p>And porous is he</p>
+          <p>SpongeBob SquarePants</p>
+          <p>If nautical nonsense</p>
+          <p>Be something you wish</p>
+          <p>SpongeBob SquarePants</p>
+          <p>Then drop on the deck</p>
+          <p>And flop like a fish</p>
+          <p>SpongeBob SquarePants</p>
+          <p>SpongeBob SquarePants</p>
+          <p>SpongeBob SquarePants</p>
+        <button class="play-button" onclick="playAudio()">Play Me</button>
+  </div>
+
+  <script>
+    function playAudio() {
+      var audio = document.getElementById("myAudio");
+      audio.play();
+    }
+  </script>
+</body>
+</html>
